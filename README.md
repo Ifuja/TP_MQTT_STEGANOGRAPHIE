@@ -15,7 +15,7 @@ Depuis le logiciel MQTTX vous devez créer (en prenant exemple sur mon projet):
 ➢ Message : Ifuja
 
 ## TP STÉGANOGRAPHIE
-Ce TP a pour but de comprendre le principe de la stéganographie, qui consiste à dissimuler des informations secrètes dans des fichiers multimédias (images, vidéos, sons, etc.) sans que cela ne soit détecté.
+Ce TP a pour but de comprendre le principe de la stéganographie, qui consiste à dissimuler des informations secrètes dans des fichiers multimédias (images, vidéos, sons, etc.).
 
 ### Installation
 1. Ouvrez un terminal et récupérez le projet ci-dessus en faisant un "git clone".
