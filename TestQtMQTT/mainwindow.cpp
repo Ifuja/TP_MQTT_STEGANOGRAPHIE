@@ -20,7 +20,7 @@ MainWindow::MainWindow(QWidget *parent)
     client->setPort(1883);
     client->connectToHost();
 
-    /***The method for published a message on the topic "/ynov/bordeaux/"***/
+    /***The method for published a message on the MQTT topic "/ynov/bordeaux/"***/
     connect(ui->pb_published,&QPushButton::clicked, this, [this]()
     {
         client->publish(QMqttTopicName("/ynov/bordeaux/"),ui->enter_message->text().toLocal8Bit());
