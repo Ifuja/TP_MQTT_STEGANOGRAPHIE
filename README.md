@@ -9,9 +9,13 @@ Ce TP a pour but de comprendre le fonctionnement de MQTT, un protocole de messag
 2. Ouvrez le logiciel QT et executez le projet TestQtMQTT.
 
 Depuis le logiciel MQTTX vous devez créer (en prenant exemple sur mon projet):
+
 ➢ Un broker public : broker.emqx.io, port 1883
+
 ➢ Topic : /ynov/bordeaux/
+
 ➢ Connexion : Ifuja@broker.emqx.io:1883
+
 ➢ Message : Ifuja
 
 ## TP STÉGANOGRAPHIE
