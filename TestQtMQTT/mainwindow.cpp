@@ -9,10 +9,10 @@ MainWindow::MainWindow(QWidget *parent)
     ui->setupUi(this);
 
     /***Settings of MQTT broker***/
-    QSettings *ssettings= new QSettings();
-    ssettings->setValue("port",1883);
-    ssettings->setValue("host","broker.emqx.io");
-    ssettings->setValue("qosLevel",0);
+    QSettings *s_settings= new QSettings();
+    s_settings->setValue("port",1883);
+    s_settings->setValue("host","broker.emqx.io");
+    s_settings->setValue("qosLevel",0);
 
     /***Settings of MQTT client***/
     client= new QMqttClient(this);
