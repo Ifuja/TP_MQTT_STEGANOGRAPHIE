@@ -27,6 +27,9 @@ Ce TP a pour but de comprendre le principe de la stéganographie, qui consiste �
 
 ### Utilisation
 Une interface graphique s'ouvrira et vous devez suivre les étapes suivantes :
+
 ➢ Cliquez sur le bouton "Originale" (vous aurez le contenu du fichier "phrase_originale.txt")
+
 ➢ Cliquez sur le bouton "Modifiée" (vous aurez le contenu du fichier "phrase_modifiée.txt")
+
 ➢ Cliquez sur le bouton "Lancement" pour obtenir la modification entre les deux fichiers.
