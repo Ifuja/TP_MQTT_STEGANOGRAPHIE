@@ -17,6 +17,7 @@ class MainWindow : public QMainWindow
 public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
+
     QString j_original_filePath;
     QString j_modified_filePath;
     QString content_original;
