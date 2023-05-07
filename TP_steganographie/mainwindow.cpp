@@ -14,10 +14,10 @@ MainWindow::MainWindow(QWidget *parent)
     /*** The button that will display the original joke ***/
     connect(ui->pb_original, &QPushButton::clicked, this, [this]()
     {
-        QString path_joke_original = "C:/Users/user/Documents/TP_MQTT_STEGANOGRAPHIE/phrase_originale.txt";
+        QString path_joke_original = "C:/Users/user/Documents/TP_MQTT_STEGANOGRAPHIE/phrase_originale_.txt";
         ui->edit_original->setText(path_joke_original);
 
-        j_original_filePath = "C:/Users/user/Documents/TP_MQTT_STEGANOGRAPHIE/phrase_originale.txt";
+        j_original_filePath = "C:/Users/user/Documents/TP_MQTT_STEGANOGRAPHIE/phrase_originale_.txt";
         QFile file(j_original_filePath);
 
         if(!file.open(QIODevice::ReadOnly | QIODevice::Text))
@@ -37,10 +37,10 @@ MainWindow::MainWindow(QWidget *parent)
     /*** The button that will display the modified joke ***/
     connect(ui->pb_modified, &QPushButton::clicked, this, [this]()
     {
-        QString path_joke_modified = "C:/Users/user/Documents/TP_MQTT_STEGANOGRAPHIE/phrase_modifiée.txt";
+        QString path_joke_modified = "C:/Users/user/Documents/TP_MQTT_STEGANOGRAPHIE/phrase_modifiée_.txt";
         ui->edit_modified->setText(path_joke_modified);
 
-        j_modified_filePath = "C:/Users/user/Documents/TP_MQTT_STEGANOGRAPHIE/phrase_modifiée.txt";
+        j_modified_filePath = "C:/Users/user/Documents/TP_MQTT_STEGANOGRAPHIE/phrase_modifiée_.txt";
         QFile file(j_modified_filePath);
 
         if(!file.open(QIODevice::ReadOnly | QIODevice::Text))
