@@ -18,11 +18,11 @@ public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
 
-    QString j_original_filePath;
-    QString j_modified_filePath;
-    QString content_original;
-    QString content_modified;
-    QString differences;
+    QString s_j_original_filePath;
+    QString s_j_modified_filePath;
+    QString s_content_original;
+    QString s_content_modified;
+    QString s_differences;
 
 private:
     Ui::MainWindow *ui;
